@@ -12,7 +12,7 @@ import lombok.extern.java.Log;
 public class Usuario {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	Log id;
+	Long id;
 	String nome;
 	String sobrenome;
 	String email;
